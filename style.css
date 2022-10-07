@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(black,gray);
+}
+.hero{
+    height: 98vh;
+    width: 60vw;
+    background-image: linear-gradient(white,rgb(237, 221, 221));
+    margin-top: 1%;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-left: 18%;
+    margin-right: 12%;
+}
+h1{
+margin-left:35px;
+}
+.cointainer{
+    height: 30vh;
+    align-items: center;
+    display: inline-flex;
+    font-size: x-large;
+    
+    
+}
+.cointainer img{
+    padding: 37px;
+    display: inline;
+    height: 196px;
+    width: 209px;
+
+}
+button {
+    margin-top: 70px;
+    width: 91px;
+    height: 27px;
+    color: rgb(21, 63, 47);
+}
+button.btn:hover{
+    background-color: rgb(17, 255, 0);
+    color: rgb(3, 116, 215);
+    cursor: pointer;
+}
+
+    .text{
+        height: 30vh;
+        position: relative;
+    
+    }
+
+.text img{
+    
+    padding: 29px;
+    width: 120px;
+    height: 120px;
+}
+p.p1{
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    font-size: x-large
+}
+ p.p2{
+    position: absolute;
+    top: 66%;
+    left: 22%;
+    font-size: x-large;
+}
+.text input#fname{
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    margin-bottom: 3%;
+    margin-left: 150px;
+}
+.text input#lname{
+    position: absolute;
+    top: 44%;
+    left: 2%;
+    margin-left: 150px;
+}
+.align{
+    height: 30vh;
+    position: relative;
+}
+a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: x-large;
+    text-decoration: none;
+    margin-left: -280px;
+}
+.align img{
+    padding:32px;
+    width: 120px;
+    height: 130px;
+}
+h2{
+    margin-left: 196px;
+    position: absolute;
+    top: 75%;
+    left:4%;
+}
+.align button{
+    
+    position: absolute;
+    margin-left: 57%;
+    width: 91px;
+    height: 27px;
+    top: 44%;
+}
+button.btn1:hover{
+    background-color: rgb(17, 255, 0);
+    color: rgb(3, 116, 215);
+  
+    cursor: pointer;
+}
